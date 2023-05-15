@@ -1,28 +1,28 @@
 # Nadmuchani 👋
 
 <div style="display: flex;">
-  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/BartoszBuko/nadmuchani">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/BartoszBuko/nadmuchani">
+  <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/BartoszBuko/portfolio">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/BartoszBuko/portfolio">
 </div>
 
 ## About 👀
 
-<img src="https://socialify.git.ci/BartoszBuko/portfolio/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&stargazers=1&theme=Dark" alt="portfolio" width="640" height="320" />
+<img src="https://socialify.git.ci/BartoszBuko/portfolio/image?description=1&language=1&name=1&owner=1&pattern=Solid&theme=Dark" alt="portfolio" width="640" height="320" />
 
 My partfolio website. <br/>
 
 Mobile version: yes!
 
-<!-- PageSpeed Insights:
+PageSpeed Insights:
 
-- [Mobile](https://pagespeed.web.dev/analysis/https-nadmuchani-com-pl/1neyg3oz43?form_factor=mobile): <br/>
+- [Mobile](https://pagespeed.web.dev/analysis/https-bartoszbuko-netlify-app/m1y2q6b9d8?form_factor=mobile): <br/>
   ![image](./githubimages/mobile-insights.png) <br/>
-- [Dekstop](https://pagespeed.web.dev/analysis/https-nadmuchani-com-pl/1neyg3oz43?form_factor=desktop): <br/>
-  ![image](./githubimages/desktop-insights.png) -->
+- [Dekstop](https://pagespeed.web.dev/analysis/https-bartoszbuko-netlify-app/m1y2q6b9d8?form_factor=desktop): <br/>
+  ![image](./githubimages/desktop-insights.png)
 
-<!-- ## How can I try it? 🤔
+## How can I try it? 🤔
 
-Try now on: https://nadmuchani.com.pl/ <br/> -->
+Try now on: https://bartoszbuko.netlify.app/ <br/>
 
 ## Instalation steps 📋
 
