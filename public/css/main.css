@@ -49,7 +49,7 @@
 .my__working--space {
   width: 100vw;
   height: 229px;
-  background: url(../img/1678213461791-modified.jpg);
+  background: url(../img/1678213461791-modified.webp);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -140,11 +140,11 @@
 }
 
 .project__nadmuchani {
-  background-image: url("../img/desktop-page-nadmuchani.png");
+  background-image: url("../img/desktop-page-nadmuchani.webp");
 }
 
 .project__optiamazer {
-  background-image: url("../img/desktop-page.png");
+  background-image: url("../img/desktop-page.webp");
 }
 
 .projects__container__item__about {
