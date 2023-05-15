@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <meta
+      name="keywords"
+      content="Bartosz Buko, Front-end Developer, JavaScript, CSS, HTML"
+    />
+    <meta name="description" content="Bartosz Buko - Front-end Developer" />
+    <meta name="author" content="Bartosz Buko" />
+    <title>Bartosz Buko - Front-end Developer</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <!-- javascript -->
+    <script src="./public/js/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/feb09a26ce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="desktop__nav" data-desktop-nav>
+        <p class="hello__nav red-text hidden" data-hello>Hello.</p>
+        <ul class="desktop__nav__list">
+          <li class="desktop__nav__list__item">
+            <p class="desktop__nav__list__item__link active" data-nav-link>
+              01. Home
+            </p>
+          </li>
+          <li class="desktop__nav__list__item">
+            <p class="desktop__nav__list__item__link" data-nav-link>
+              02. Projects
+            </p>
+          </li>
+          <li class="desktop__nav__list__item">
+            <p class="desktop__nav__list__item__link" data-nav-link>
+              03. About
+            </p>
+          </li>
+          <li class="desktop__nav__list__item">
+            <p class="desktop__nav__list__item__link" data-nav-link>
+              04. Contact
+            </p>
+          </li>
+        </ul>
+      </nav>
+      <nav class="mobile__nav">
+        <div class="mobile__nav__hamburger" data-switch-nav>
+          <div class="mobile__nav__hamburger__line" data-line></div>
+          <div class="mobile__nav__hamburger__line" data-line></div>
+          <div class="mobile__nav__hamburger__line" data-line></div>
+        </div>
+        <div class="mobile__nav__menu closed" data-mobile-nav>
+          <ul class="mobile__nav__menu__list">
+            <li class="mobile__nav__menu__list__item">
+              <p
+                class="mobile__nav__menu__list__item__link bottom__link"
+                data-mobile-nav-link
+              >
+                02. Projects
+              </p>
+            </li>
+            <li class="mobile__nav__menu__list__item">
+              <p
+                class="mobile__nav__menu__list__item__link top__link"
+                data-mobile-nav-link
+              >
+                03. About
+              </p>
+            </li>
+            <li class="mobile__nav__menu__list__item">
+              <p
+                class="mobile__nav__menu__list__item__link bottom__link"
+                data-mobile-nav-link
+              >
+                04. Contact
+              </p>
+            </li>
+          </ul>
+          <div class="mobile__nav__menu--socials">
+            <a
+              href="https://github.com/BartoszBuko"
+              target="_blank"
+              class="mobile__nav--social"
+              ><i class="fa-brands fa-github fa-2x"></i>
+            </a>
+            <a
+              href="https://instagram.com/bartus_buko"
+              class="mobile__nav--social"
+              target="_blank"
+              ><i class="fa-brands fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/bartosz.buko.73"
+              class="mobile__nav--social"
+              target="_blank"
+              ><i class="fa-brands fa-facebook fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="home__desc">
+      <div class="hello__container">
+        <div class="content">
+          <h2 class="hello red-text">Hello.</h2>
+          <h2 class="hello red-text">Hello.</h2>
+        </div>
+        <div class="other__info">
+          <p class="top__text name">I'm Bartosz Buko</p>
+          <p class="top__text specialization">Front-end Developer</p>
+          <p class="top__text description">
+            Teenage programmer with passion in IT and programming
+          </p>
+        </div>
+      </div>
+      <div class="bottom__other">
+        <div class="my__working--space">
+          <p class="my__working--space__text">ALWAYS</p>
+          <div class="my__working--space__animated"></div>
+        </div>
+        <div id="particles-js" class="particles mobile__hidden"></div>
+
+        <i class="quote"
+          >“Code is like humor. When you have to explain it, it's bad.” - Cory
+          House</i
+        >
+      </div>
+    </section>
+    <div class="separator" data-projects>
+      <p class="number">02.</p>
+      <p>PROJECTS</p>
+      <p class="mobile__hidden">//</p>
+    </div>
+    <section class="projects">
+      <p class="projects__p">Check out some of my projects:</p>
+      <div class="projects__container">
+        <div class="projects__container__item from-right">
+          <div
+            class="projects__container__item__img project__optiamazer from-right-img"
+          ></div>
+          <div class="projects__container__item__about from-right-about">
+            <p class="project__name">OptiAmazer</p>
+
+            <p class="projects__item--about__text">
+              You can upload any image you want and easily optimize it for your
+              website. Simply upload your image, download the optimized version,
+              and you're done!
+            </p>
+            <div
+              class="projects__item--about__technologies from-right-technologies"
+            >
+              <p class="item__technology">Node.js</p>
+              <p class="item__technology">Express</p>
+              <p class="item__technology">Cheetaho API</p>
+            </div>
+            <div class="projects__item--about__links from-right-links">
+              <a
+                href="https://github.com/BartoszBuko/OptiAmazer"
+                target="_blank"
+                class="projects__item--about__links__link"
+                ><i class="fab fa-github fa-xl"></i
+              ></a>
+              <a
+                href="https://optiamazer.up.railway.app"
+                target="_blank"
+                class="projects__item--about__links__link"
+                ><i class="fas fa-external-link-alt fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__container__item from-left">
+          <div
+            class="projects__container__item__img project__nadmuchani from-left-img"
+          ></div>
+          <div class="projects__container__item__about from-left-about">
+            <p class="project__name">Nadmuchani</p>
+
+            <p class="projects__item--about__text">
+              Nadmuchani is a simple website to promote bouncy castles rentals.
+              It was created for a client who wanted to have a website to
+              promote his business.
+            </p>
+            <div class="projects__item--about__technologies">
+              <p class="item__technology">HTML</p>
+              <p class="item__technology">CSS</p>
+              <p class="item__technology">JavaScript (ES6+)</p>
+              <p class="item__technology">GSAP</p>
+            </div>
+            <div class="projects__item--about__links">
+              <a
+                href="https://github.com/BartoszBuko/Nadmuchani"
+                target="_blank"
+                class="projects__item--about__links__link"
+                ><i class="fab fa-github fa-xl"></i
+              ></a>
+              <a
+                href="https://nadmuchani.com.pl"
+                target="_blank"
+                class="projects__item--about__links__link"
+                ><i class="fas fa-external-link-alt fa-xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separator" data-about>
+      <p class="number">03.</p>
+      <p>ABOUT</p>
+      <p class="mobile__hidden">//</p>
+    </div>
+    <section class="about">
+      <div class="top__container">
+        <div class="about__item">
+          <p class="about__p">
+            My name is Bartosz Buko and I'm a 17-year-old aspiring front-end
+            developer based in Poland. From a young age, I've been fascinated by
+            the power of technology to shape our world and solve complex
+            problems. That's why I decided to pursue a career in web
+            development, with a focus on creating beautiful and functional user
+            interfaces that make people's lives easier.
+          </p>
+        </div>
+        <div class="about__item mobile__hidden">
+          <p class="about__p tar">
+            Over the past few years, I've been learning everything I can about
+            HTML, CSS, and JavaScript, as well as related tools and frameworks
+            like Bootstrap and React. I'm passionate about staying up-to-date
+            with the latest trends and best practices in front-end development,
+            and I'm always looking for new challenges and opportunities to
+            expand my skills.
+          </p>
+        </div>
+      </div>
+      <div class="technologies">
+        <div class="technologies__container">
+          <div class="technologies__item">
+            <h3 class="technologies__item__title">Technologies</h3>
+            <ul class="technologies__item__p">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript (ES6+)</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div class="technologies__item">
+            <h3 class="technologies__item__title">Tools</h3>
+            <ul class="technologies__item__p">
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+          <div class="technologies__item">
+            <h3 class="technologies__item__title">Languages</h3>
+            <ul class="technologies__item__p">
+              <li>Polish</li>
+              <li>English</li>
+            </ul>
+          </div>
+        </div>
+        <div class="technologies__my-picture mobile__hidden">
+          <img
+            src="./public/img/1678213461791-modified.jpg"
+            alt="my-picture"
+            class="technologies__my-picture--img"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="separator" id="contact" data-contact>
+      <p class="number">04.</p>
+      <p>CONTACT</p>
+      <p class="mobile__hidden">//</p>
+    </div>
+    <section class="contact">
+      <div class="socials">
+        <div class="socials__item">
+          <div class="socials__desc">Socials</div>
+          <div class="socials__links">
+            <a
+              href="https://github.com/BartoszBuko"
+              target="_blank"
+              class="mobile__nav--social"
+              ><i class="fa-brands fa-github fa-2x"></i>
+            </a>
+            <a
+              href="https://instagram.com/bartus_buko"
+              class="mobile__nav--social"
+              target="_blank"
+              ><i class="fa-brands fa-instagram fa-2x"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/bartosz.buko.73"
+              class="mobile__nav--social"
+              target="_blank"
+              ><i class="fa-brands fa-facebook fa-2x"></i
+            ></a>
+          </div>
+        </div>
+        <div class="socials__item">
+          <div class="socials__desc">Email</div>
+          <div class="socials__item">
+            <a
+              href="mailto:bukobartosz@gmail.com"
+              class="socials__item__link email"
+            >
+              <i class="fa-solid fa-envelope fa-xl"></i>
+              bukobartosz@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        Bartosz Buko - <span data-year></span> &copy; All Rights Reserved
+      </p>
+    </section>
+
+    <script src="./public/js/particles.js">
+      ;
+    </script>
+    <script>
+      particlesJS.load(
+        "particles-js",
+        "public/js/particlesjs-config.json",
+        function () {}
+      );
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+      const typed = new Typed(".my__working--space__animated", {
+        strings: ["Dream.", "Work.", "Enjoy."],
+        typeSpeed: 150,
+      });
+    </script>
+  </body>
+</html>

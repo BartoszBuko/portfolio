@@ -1,0 +1,8 @@
+:root {
+  --main-color: hsl(0, 0%, 90%);
+  --accent-color: hsl(342, 93%, 40%);
+  --bcg-color: hsl(0, 0%, 10%);
+  --bcg-secondary: hsl(0, 0%, 17%);
+  --main-font: "Montserrat", sans-serif;
+  --second-font: "Poppins", sans-serif;
+}

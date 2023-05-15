@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-margin-top: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 16px;
+  color: var(--main-color);
+  background-color: var(--bcg-color);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.prevent-scroll {
+  overflow: hidden !important;
+}
+
+.red-text {
+  color: var(--accent-color);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.mobile__hidden {
+  display: none;
+}
+
+.from-left {
+  display: grid;
+  grid-template-areas: initial;
+}
+
+.from-right {
+  display: grid;
+  grid-template-areas: initial;
+}
+
+.from-left-img,
+.from-right-img {
+  grid-area: b !important;
+}
+
+.from-left-about,
+.from-right-about {
+  grid-area: a !important;
+}
+.tar {
+  text-align: right;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile__hidden {
+    display: block;
+  }
+  .from-left {
+    display: grid;
+    grid-template-areas: "a b";
+  }
+
+  .from-right {
+    display: grid;
+    grid-template-areas: "b a";
+  }
+
+  .from-right-about {
+    text-align: right;
+  }
+  .from-right-technologies,
+  .from-right-links {
+    justify-content: end;
+  }
+}
