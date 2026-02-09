@@ -143,8 +143,9 @@
   background-image: url("../img/desktop-page-nadmuchani.webp");
 }
 
-.project__optiamazer {
-  background-image: url("../img/desktop-page.webp");
+.project__fuelCalcs {
+  background-image: url("../img/desktop-page.png");
+  background-size: cover;
 }
 
 .projects__container__item__about {
